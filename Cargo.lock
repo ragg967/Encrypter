@@ -7,7 +7,6 @@ name = "Encrypter"
 version = "0.1.0"
 dependencies = [
  "aes-gcm",
- "getrandom 0.3.1",
  "rand",
 ]
 
