@@ -18,13 +18,20 @@ git clone https://github.com/yourusername/Encrypter.git
 cd Encrypter
 ```
 
+or use the precompiled binary's
+
 ## Usage
 
 ### Encrypting a file
 
+compiled
+
 ```sh
 cargo run --bin encrypt <input_file>
 ```
+
+binary's
+PATH_TO_BINARY <input_file>
 
 This will:
 
@@ -36,6 +43,9 @@ This will:
 ```sh
 cargo run --bin decrypt <encrypted_file>
 ```
+
+binary's
+PATH_TO_BINARY <input_file>
 
 Make sure the `encryption.key` file is in the same directory as your encrypted file.
 
