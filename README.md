@@ -50,7 +50,7 @@ cargo run --bin decrypt <encrypted_file>
 precompiled
 
 ```sh
-PATH_TO_BINARY <input_file>
+PATH_TO_BINARY <encrypted_file>
 ```
 
 Make sure the `encryption.key` file is in the same directory as your encrypted file.
