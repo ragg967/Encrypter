@@ -1,4 +1,4 @@
-# Encrypter
+# Encrypter-and-Decrypter
 
 A secure file encryption tool using AES-256-GCM (Galois/Counter Mode) encryption.
 
@@ -14,7 +14,7 @@ A secure file encryption tool using AES-256-GCM (Galois/Counter Mode) encryption
 Ensure you have Rust and Cargo installed on your system. Then clone this repository:
 
 ```sh
-git clone https://github.com/yourusername/Encrypter.git
+git clone https://github.com/yourusername/Encrypter-and-Decrypter.git
 cd Encrypter
 ```
 
@@ -27,7 +27,7 @@ or use the precompiled binary's
 compiled
 
 ```sh
-cargo run --bin encrypt <input_file>
+cargo run --release encrypt <input_file>
 ```
 
 precompiled
@@ -44,7 +44,7 @@ This will:
 ### Decrypting a file
 
 ```sh
-cargo run --bin decrypt <encrypted_file>
+cargo run --release decrypt <encrypted_file>
 ```
 
 precompiled
