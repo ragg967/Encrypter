@@ -15,7 +15,7 @@ Ensure you have Rust and Cargo installed on your system. Then clone this reposit
 
 ```sh
 git clone https://github.com/yourusername/Encrypter-and-Decrypter.git
-cd Encrypter
+cd Encrypter-and-Decrypter
 ```
 
 or use the precompiled binary's
