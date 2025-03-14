@@ -30,7 +30,8 @@ compiled
 cargo run --bin encrypt <input_file>
 ```
 
-binary's
+precompiled
+
 PATH_TO_BINARY <input_file>
 
 This will:
@@ -44,7 +45,8 @@ This will:
 cargo run --bin decrypt <encrypted_file>
 ```
 
-binary's
+precompiled
+
 PATH_TO_BINARY <input_file>
 
 Make sure the `encryption.key` file is in the same directory as your encrypted file.
